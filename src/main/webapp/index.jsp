@@ -118,7 +118,7 @@
 
     <div class="w3-row-padding w3-padding-16">
 
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-margin-bottom">f
             <img src="1.PNG" style="width:100%">
             <div class="w3-container w3-white">
                 <h3>Rumah Sewa Lipat Kajang</h3>
