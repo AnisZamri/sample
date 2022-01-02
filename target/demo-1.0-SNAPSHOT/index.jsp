@@ -37,26 +37,7 @@
 
 </style>
 <body class="w3-light-grey">
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar w3-white w3-card" id="myNavbar">
-        <a href="home.html" class="w3-bar-item w3-button w3-wide">NR</a>
-
-        <!-- Right-sided navbar links -->
-        <div class="w3-right w3-hide-small">
-            <a href="home.html" class="w3-bar-item w3-button">HOME</a>
-            <a href="listhouse.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOUSE</a>
-            <a href="#booking" class="w3-bar-item w3-button"><i class="fa fa-th"></i> BOOKING</a>
-            <a href="#profile" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PROFILE</a>
-        </div>
-
-        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</div>
+    <%@include file="Menu.html"%>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
@@ -138,24 +119,24 @@
     <div class="w3-row-padding w3-padding-16">
 
         <div class="w3-third w3-margin-bottom">
-            <img src="1.png" style="width:100%">
+            <img src="1.PNG" style="width:100%">
             <div class="w3-container w3-white">
                 <h3>Rumah Sewa Lipat Kajang</h3>
                 <h6 class="w3-opacity">RM150</h6>
                 <p>Available</p>
                 <p class="w3-large"><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
-                <a href="houseLK.html" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
+                <a href="HouseLipatKajang.jsp" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
             </div>
         </div>
 
         <div class="w3-third w3-margin-bottom">
-            <img src="merlimau.jpg" alt="Norway" style="width:100%"  height="290">
+            <img src="2.jpg" alt="Norway" style="width:100%"  height="290">
             <div class="w3-container w3-white">
                 <h3>Rumah Sewa Taman Merlimau</h3>
                 <h6 class="w3-opacity">RM800</h6>
                 <p>Available</p>
                 <p class="w3-large"><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
-                <a href="houseMerlimau.html" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
+                <a href="HouseMerlimau.jsp" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
             </div>
 
         </div>

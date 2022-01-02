@@ -78,34 +78,7 @@
 <body class="w3-light-grey">
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">NR</a>
-
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#home" class="w3-bar-item w3-button">HOME</a>
-      <a href="#house" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOUSE</a>
-      <a href="#booking" class="w3-bar-item w3-button"><i class="fa fa-th"></i> BOOKING</a>
-      <a href="#profile" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PROFILE</a>
-    </div>
-
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-  <a href="#house" onclick="w3_close()" class="w3-bar-item w3-button">HOUSE</a>
-  <a href="#booking" onclick="w3_close()" class="w3-bar-item w3-button">BOOKING</a>
-  <a href="#profile" onclick="w3_close()" class="w3-bar-item w3-button">PROFILE</a>
-
-</nav>
+<%@include file="Menu.html"%>
 
 
 <!-- House -->
@@ -119,8 +92,8 @@
     <div class="w3-row-padding w3-padding-16" style="border:black" "style:center">
     <div class="images">
       <div class="w3-content w3-section" style="max-width:1000px">
-        <img class="mySlides" src="1.png" style="width:80%">
-        <img class="mySlides" src="ruang1.png" style="width:80%">
+        <img class="mySlides" src="1.PNG" style="width:80%">
+        <img class="mySlides" src="ruang1.PNG" style="width:80%">
         <img class="mySlides" src="toilet1.jpg" style="width:80%">
       </div>
     </div>
